@@ -1,4 +1,4 @@
-namespace BurgaMNotes;
+namespace BurgaMNotes.Views;
 
 public partial class AboutPage : ContentPage
 {
