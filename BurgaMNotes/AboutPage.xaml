@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BurgaMNotes.AboutPage">
+    <VerticalStackLayout Spacing="10" Margin="10">
+        <HorizontalStackLayout Spacing="10">
+            <Image Source="juevesdeprogra.jpg"
+                   SemanticProperties.Description="This is the creator of this code. Say hello!"
+                   HeightRequest="50" />
+            <Label FontSize="22" FontAttributes="Bold" Text="Notes" VerticalOptions="End" />
+            <Label FontSize="22" Text="v1.0" VerticalOptions="End" />
+        </HorizontalStackLayout>
+
+        <Label FontSize ="12" Text="App developed by:" />
+        <Label FontSize ="15" FontAttributes="Bold" Text="Martin Burga" />
+        <Label FontSize ="10" Text="Desarrollador web y movil que le gusta los gatos, juegos y la fotografia. (Ex Top national player de Osu)" />
+    </VerticalStackLayout>
+</ContentPage>
