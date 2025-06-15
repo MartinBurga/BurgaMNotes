@@ -5,7 +5,11 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:BurgaMNotes.Views"
     Shell.FlyoutBehavior="Disabled"
-    Title="BurgaMNotes">
+    Title="BurgaMNotes"
+    BackgroundColor="Black"
+    Shell.TitleColor="White"
+    Shell.ForegroundColor="White"
+    >
 
     <TabBar>
         <ShellContent
@@ -17,6 +21,12 @@
             Title="About"
             ContentTemplate="{DataTemplate local:AboutPage}"
             Icon="{OnPlatform 'icon_about.png', iOS='icon_about_ios.png', MacCatalyst='icon_about_ios.png'}" />
+        <ShellContent
+            Title="Todas las notas"
+            ContentTemplate="{DataTemplate local:AllNotes}"
+            Icon="{OnPlatform 'icon_create_note.png', iOS='icon_create_note_ios.png', MacCatalyst='icon_create_note_ios.png'}"
+            />
+
     </TabBar>
 
 
