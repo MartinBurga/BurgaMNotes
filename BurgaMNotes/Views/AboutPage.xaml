@@ -8,7 +8,7 @@
 
     <ContentPage.BindingContext>
         <Models:About/>
-    </ContentPage.BindingContext>
+    </ContentPage.BindingContext>  
     <VerticalStackLayout Spacing="10" Margin="10">
         <HorizontalStackLayout Spacing="10">
             <Image Source="juevesdeprogra.jpg"

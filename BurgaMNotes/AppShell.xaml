@@ -26,7 +26,7 @@
             ContentTemplate="{DataTemplate local:AboutPage}"
             Icon="{OnPlatform 'icon_about.png', iOS='icon_about_ios.png', MacCatalyst='icon_about_ios.png'}" />
         <ShellContent
-            Title="Todas las notas"
+            Title="All notes"
             ContentTemplate="{DataTemplate local:AllNotes}"
             Icon="{OnPlatform 'icon_create_note.png', iOS='icon_create_note_ios.png', MacCatalyst='icon_create_note_ios.png'}"
             />

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BurgaMNotes.Views.MainPage">
-    <!-- UI elements go here -->
+             x:Class="BurgaMNotes.Views.MainPage"
+             Title="BurgaM_Home">
 
     <ScrollView>
         <VerticalStackLayout
@@ -12,7 +12,7 @@
                 Source="notas.jpg"
                 HeightRequest="185"
                 Aspect="AspectFit"
-                SemanticProperties.Description="dot net bot in a race car number eight" />
+                SemanticProperties.Description="A Notes photo." />
 
             <Label
                 Text="Actividad Apuntes - Martin Burga"
