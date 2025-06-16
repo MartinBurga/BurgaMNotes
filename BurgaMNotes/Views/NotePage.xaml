@@ -13,11 +13,13 @@
 
         <Grid ColumnDefinitions="*,*" ColumnSpacing="4">
             <Button Text="Guardar"
-                    Clicked="GuardarButton_Clicked" />
+                    Clicked="GuardarButton_Clicked" 
+                    BackgroundColor="Black"/>
 
             <Button Grid.Column="1"
                     Text="Borrar"
-                    Clicked="BorrarButton_Clicked" />
+                    Clicked="BorrarButton_Clicked" 
+                    BackgroundColor="Red"/>
         </Grid>
     </VerticalStackLayout>
 </ContentPage>

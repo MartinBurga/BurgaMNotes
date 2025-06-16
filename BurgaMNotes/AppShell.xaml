@@ -9,9 +9,13 @@
     BackgroundColor="Black"
     Shell.TitleColor="White"
     Shell.ForegroundColor="White"
+   
     >
 
     <TabBar>
+        <ShellContent Route="home" ContentTemplate="{DataTemplate local:MainPage}" Title="Home" />
+
+
         <ShellContent
             Title="Notes"
             ContentTemplate="{DataTemplate local:NotePage}"
